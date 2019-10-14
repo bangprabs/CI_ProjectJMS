@@ -1,0 +1,3 @@
+function hideloader(){
+	$("#loading").remove();
+}
