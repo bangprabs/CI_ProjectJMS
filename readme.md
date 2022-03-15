@@ -1,6 +1,6 @@
 <h1 align="center"> Sistem Informasi Job Management System</h1>
 
-## Pengantar
+## Intro
 
 [![Codeigniter](https://img.shields.io/badge/Codeigniter-3.0-red.svg)](https://www.codeigniter.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
