@@ -4,20 +4,18 @@
 
 [![Codeigniter](https://img.shields.io/badge/Codeigniter-3.0-red.svg)](https://www.codeigniter.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-[![Admin LTE 3](https://img.shields.io/badge/AdminLTE-3-blue)](https://startbootstrap.com/themes/sb-admin-2/)
+[![Admin LTE 3](https://img.shields.io/badge/AdminLTE-3-blue)](https://adminlte.io/themes/v3/)
 
-&emsp; &emsp; Ini adalah sistem informasi laundry yang saya buat menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya. <br />
-&emsp; &emsp; Sistem ini berfungsi untuk ajang promosi usaha laundry yang kita punya, dapat juga digunakan untuk mencatat transaksi (Poin Of Sale) pelanggan-pelanggan yang menggunakan jasa laundry kita, selain itu user juga dapat melihat status barang atau pakaian yang sedang dilaundry (sedang dicuci, dikeringkan, disetrika dll) dihalaman user.<br />
+&emsp; &emsp; Ini adalah sistem informasi pembagian jobdesk kerja karyawan yang saya buat menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya. <br />
+&emsp; &emsp; Sistem ini berfungsi untuk mengelola surat perintah kerja terhadap project yang akan datang untuk dikerjakan pada setiap divisi, Project ini diperuntukan untuk Software House Novatama Solusi Teknologi.<br />
 	
 	
 ## Fitur
 Fitur yang tersedia diaplikasi ini adalah
-1. Crud data Pakaian (kaos, kemeja, celana, celana panjang dll) 
-2. Crud data tarif laundry
-3. Mencatat transaksi laundry
-4. Merubah status laundry pakaian (sedang dicuci, dikeringkan, disetrika dll)
-5. Laporan status laundry (sedang diproses atau sudah selesai)
-6. Crud user (admin atau pegawai)
+1. Crud data <b>Surat Perintah Kerja</b>
+2. Crud data <b>Tiket Sebelum SPK</b>
+3. Crud data <b>Agenda</b>
+4. Multi User (Adminstrator, Superuser)
 
 ## Kebutuhan
 Software yang diperlukan untuk menjalankan aplikasi ini adalah
@@ -26,27 +24,19 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 
 ## Cara Instalasi
 1. Pastikan kamu sudah mendownload repositori ini.
-2. Ekstrak dan rubah nama foldernya menjadi 'laundry'.
+2. Ekstrak dan rubah nama foldernya menjadi 'jms_app'.
 3. Letakkan repositori di dalam folder htdocts xampp kamu, contoh: "C:\xampp\htdocs\codeigniter\laundry".
 4. Buka di file "application/config/config.php".
-5. Sesuaikan value dari "$config['base_url']" dengan folder yang digunakan ketika menaruh repositori ini. contoh 'http://localhost/codeigniter/laundry'
+5. Sesuaikan value dari "$config['base_url']" dengan folder yang digunakan ketika menaruh repositori ini. contoh 'http://localhost/codeigniter/jms_app'
 6. Buka aplikasi xampp dan klik start pada apache dan mysql.
-7. Buka web browser dan tulis 'http://localhost/codeigniter/laundry' di form url lalu tekan enter.
+7. Buka web browser dan tulis 'http://localhost/codeigniter/jms_app' di form url lalu tekan enter.
 8. Tunggu sampai aplikasi terbuka.
 
 
 ## Screenshot Halaman Admin
 <p align='Left' valign='top'>
   <span>
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%201.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%202.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%203.png'  width=400 />
-	  <img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%204.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%205.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%206.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%207.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%208.png'  width=400 />
-		<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/admin%209.png'  width=400 />
+	<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/dashboard.png' />
   </span>
 </p>
 
@@ -54,16 +44,12 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 <br />
 
 ## Screenshot Halaman User
-<p><img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/user%201.jpg'  width=400 /></p>
-<p><img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/user%202.png'  width=400 /></p>
-<p align='Left' valign='top'>
-<span>
-	<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/user%203.png'  width=400 />
-	<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/user%204.png'  width=400 />
-	<img src='https://github.com/DanyAdhi/Aplikasi-Laundry-Codeigniter/blob/master/screenshot/user%205.png'  width=400 />
-  </span>
-</p>
-
+### Halaman Surat Perintah Kerja 
+<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/user%20area.png'/>
+### Halaman Agenda (Meeting Plan)
+<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/agenda.png'/>
+### Halaman Tiket (Meeting Plan)
+<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/Tiket.png'/>
 <br />
 <br />
 
