@@ -1,5 +1,7 @@
 <h1 align="center"> Sistem Informasi Job Management System</h1>
 
+<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/show%20jms%20project.png' />
+
 ## Intro
 
 [![Codeigniter](https://img.shields.io/badge/Codeigniter-3.0-red.svg)](https://www.codeigniter.com/)
