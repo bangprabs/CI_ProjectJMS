@@ -50,8 +50,6 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 <img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/agenda.png'/>
 ### Halaman Tiket (Meeting Plan)
 <img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/Tiket.png'/>
-<br />
-<br />
 
 ## Kontak
 bangprabs@gmail.com
