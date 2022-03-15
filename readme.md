@@ -1,4 +1,4 @@
-<h1 align="center"> Sistem Informasi Laundry Codeigniter</h1>
+<h1 align="center"> Sistem Informasi Job Management System</h1>
 
 ## Pengantar
 
