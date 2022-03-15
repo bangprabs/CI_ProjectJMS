@@ -54,4 +54,4 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 <br />
 
 ## Kontak
-danyadhi4149@gmail.com
+bangprabs@gmail.com
