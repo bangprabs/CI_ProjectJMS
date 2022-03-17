@@ -1,12 +1,11 @@
 <?php 
-
 class Login extends CI_Controller{
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model('m_login');
+		$this->load->library('session');
 	}
-
 
 	function aksi_login(){
 		$username = $this->input->post('username');
@@ -27,20 +26,21 @@ class Login extends CI_Controller{
 				'status' => "login"
 				);
 			$this->session->set_userdata($data_session);
-
+			
+			// echo "<pre>"; print_r($data_session); die;
 			redirect(base_url("adminbackend/report"));
 
 		}else{ 
 			echo "<script>
 			alert('Password Dan Username Anda Salah');
-			window.location = 'http://localhost/jms_project/adminbackend';
+			window.location = 'http://localhost:8081/jms_project/adminbackend/';
 		</script>";
 	}
 }
 
 function logout(){
-	$this->session->sess_destroy();
-	redirect(base_url('adminbackend'));
-}
+		$this->session->sess_destroy();
+		redirect(base_url('adminbackend'));
+	}
 }
 ?>

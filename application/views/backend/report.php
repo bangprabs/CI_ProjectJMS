@@ -68,11 +68,13 @@
                         </div>
                         <div class="info">
                             <div class="title">
-                                <a target="_blank" href="<?php echo base_url(); ?>adminbackend/profil"><?php echo $this->session->userdata("nama_lengkap"); ?></a>
+                                <a target="_blank" href="<?php echo base_url(); ?>adminbackend/profil"></a>
                             </div>
+                            <div class="desc" style="color: #fff;"><?php $this->input->set_cookie('namauser', TRUE);?></div>
                             <div class="desc" style="color: #fff;">Admin Team Project</div>
                             <div class="desc" style="color: #fff;">CV. Novatama Infomedia</div>
                             <div class="desc" style="color: #fff;">Since 2011.</div>
+                            <h3></h3>
                         </div>
                         <div class="bottom">
                             <a class="btn btn-danger btn-xs" href="<?php echo base_url(); ?>login/logout">
@@ -124,7 +126,7 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="<?php echo base_url(); ?>adminbackend/profil"><i class="fa fa-circle-o"></i> Profile</a></li>
+                            <li><a href="<?php echo base_url(); ?>adminbackend/profil"><?php echo $this->session->userdata("nama_lengkap"); ?><i class="fa fa-circle-o"></i> Profile</a></li>
                             <li><a href="<?php echo base_url('login/logout'); ?>"><i class="fa fa-circle-o"></i> Logout</a></li>
                         </ul>
                     </li> 

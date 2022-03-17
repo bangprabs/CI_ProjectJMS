@@ -78,7 +78,7 @@ $next7day = date("Y-m-d", strtotime("+1 week"));
 						<?php 
 						$this->db->where('status !=', 'Done');
 						if($this->db->get('spk')->num_rows() == 0) { ?>
-						<td colspan="5"><center>DONE ALL !!!</center></td>
+						<td colspan="7"><center><b>DONE ALL !!!</b></center></td>
 					</tr>	
 					<?php } else { ?>
 					<?php $i = 1; foreach ($spk as $key) ?>
@@ -129,7 +129,7 @@ $next7day = date("Y-m-d", strtotime("+1 week"));
 </div>
 </div>
 </div>
-<meta http-equiv="refresh" content="15;url=http://localhost/jms_project/report/index2">
+<meta http-equiv="refresh" content="25;url=http://localhost:8081/jms_project/report/index2">
 <script src="<?=base_url();?>assets/js/jquery.js"></script>
 <script src="<?=base_url();?>assets/js/typed.min.js"></script>
 <script src="<?=base_url();?>assets/js/bootstrap.min.js"></script>

@@ -1,0 +1,14 @@
+Assalamualaikum Pak Agus.
+Ini project milik saya semasa sekolah SMK, pada Tugas Akhir sekolah saya membangun sistem manajemen kerja pada suatu 
+software house di daerah bekasi bernama PT. Novatama Infomedia dan sekarang sudah berubah nama menjadi PT. Novatama Solusi
+Teknologi.
+
+Ada beberapa instruksi Pak untuk menjalankan project nya 
+1. Ubah terlebih dahulu pak di base url nya menjadi tanpa port jika bapak menjalankan nya tanpa port.
+2. Hilangkan port pada file database nya pak karena kalau di saya harus menggunakan port
+3. Kemudian import database nya ya Pak
+4. Buka web nya dengan, localhost/jms_project
+5. Kemudian login dengan username agung dan password gangs.
+6. Selesai
+
+==== Terima kasih ===

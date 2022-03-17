@@ -7,6 +7,7 @@ class Adminbackend extends CI_Controller{
 		$this->load->model('backend');
 		$this->load->model('m_login');
 		$this->load->model('User_model');
+		$this->load->library('session');
 	}
 
 	public function index()
@@ -21,12 +22,12 @@ class Adminbackend extends CI_Controller{
 		$data['agenda'] = $this->_getAgenda();
 		$data['ticket'] = $this->_getTicket();
 		$data['spk'] = $this->_getSpk();
+
 		$this->load->view('backend/adminbackend', $data);
 	}
 
-	public function profil($id = null){
-		$dataUser = $this->session->all_userdata();
-		$row = $this->User_model->get_by_id($dataUser['id']);
+	public function profil($id){
+		$row = $this->User_model->get_by_id($id);
 
 		if ($row) {
 			$data = array(

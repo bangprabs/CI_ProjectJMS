@@ -79,7 +79,7 @@
 		</div>
 	</div>
 </div>
-<meta http-equiv="refresh" content="15;url=http://localhost/jms_project/report/index">
+<meta http-equiv="refresh" content="25;url=http://localhost:8081/jms_project/report/index">
 <script src="<?=base_url();?>assets/js/jquery.js"></script>
 <script src="<?=base_url();?>assets/js/bootstrap.min.js"></script>
 <script src="<?=base_url();?>assets/js/wow.min.js"></script>

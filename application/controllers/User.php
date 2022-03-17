@@ -64,7 +64,7 @@ class User extends CI_Controller
 
     public function create() 
     {
-     if ($this->session->userdata('level') != 'Superuser') {
+     if ($this->session->userdata('level') == 'Superuser') {
          $this->load->view('user_permission'); 
      } else {
         $data = array(
