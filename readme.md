@@ -1,6 +1,6 @@
 <h1 align="center"> Sistem Informasi Job Management System</h1>
 
-<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/show%20jms%20project.png' />
+<img src='https://github.com/bangprabs/CI_ProjectJMS/blob/master/img_starter_jmsproject/JMS%20Project.png' />
 
 ## Intro
 
